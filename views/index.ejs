@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Welcome to my blog</h1>
+	<br>
+	<ul>
+	<% posts.forEach(function(post) {%>
+			<li> <a href ="movie/<%= movie.imdbID %>"><%= movie.Title %></a></li>
+		
+		<%	})%>
+	</ul>
+
+</body>
+</html>
